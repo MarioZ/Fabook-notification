@@ -15,6 +15,10 @@ requires = [
     'pyramid_debugtoolbar',
     'zope.sqlalchemy',
     'waitress',
+    'pyramid_vgid_oauth2',
+    'pyramid_beaker',
+    'pyramid_layout',
+    'requests'
     ]
 
 setup(name='notification_demo',
