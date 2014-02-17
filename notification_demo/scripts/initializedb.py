@@ -14,6 +14,7 @@ from ..models import (
     Base,
     )
 
+from notification_demo import models
 
 def usage(argv):
     cmd = os.path.basename(argv[0])
@@ -28,8 +29,5 @@ def main(argv=sys.argv):
     config_uri = argv[1]
     setup_logging(config_uri)
     settings = get_appsettings(config_uri)
-    engine = engine_from_config(settings, 'sqlalchemy.')
-    DBSession.configure(bind=engine)
-    Base.metadata.create_all(engine)
-    with transaction.manager:
-        pass
+    models.initialize_non_web_database(settings)
+    models.Base.metadata.create_all()
