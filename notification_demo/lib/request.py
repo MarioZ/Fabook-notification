@@ -34,5 +34,6 @@ class NDRequest(Request):
     def authenticated_user(self, value):
         self._authenticated_user = value
 
+    @property
     def user(self):
         return self.authenticated_user

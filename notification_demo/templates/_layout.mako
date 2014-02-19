@@ -21,7 +21,7 @@
         <div class="container-fluid">
             <div class="row">
                 <hr>
-                <p class="text-left" style="margin-left: 30px; font-family: monospace;"><small>
+                <p class="text-left" style="margin-left: 30px; font-family: monospace; text-align: center" ><small>
                     Công ty Cổ phần Vật Giá Việt Nam. Số GCNDT: 011032001615, cấp ngày 21/06/2012, nơi cấp: UBND thành phố Hà Nội.
                     <br>
                     Trụ sở chính: Lê Đại Hành, Hai Bà Trưng, Hà Nội - Chi nhánh Hồ Chí Minh: Đường Lữ Gia, Phường 15, Quận 11, Hồ Chí Minh

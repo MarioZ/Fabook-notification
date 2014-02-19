@@ -148,7 +148,7 @@ def put_vgid_user(acc):
         id=acc['id'],
         name=acc['name'],
         email=acc['email'],
-        avatar_url=acc['avatar'],
+        avatar=acc['avatar'],
     )
     DBSession.merge(u)
     DBSession.flush()

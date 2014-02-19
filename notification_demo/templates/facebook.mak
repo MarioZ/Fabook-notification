@@ -30,7 +30,7 @@
     <div class="control-group">
         <label for="SendFBTest_message" class="control-label required">Nội dung thông báo <span class="required">*</span></label>
         <div class="controls">
-            <textarea id="SendFBTest_message" name="message" class="span8" rows="5" cols="80" style="font-size: 16px; font-family: monospace !important; color: #808080">Thông báo test từ daugia.vn, dành cho ${request.authenticated_user.name}</textarea>
+            <textarea id="SendFBTest_message" name="message" class="span8" rows="5" cols="80" style="font-size: 16px; font-family: monospace !important; color: #808080">Thông báo test dành cho ${request.authenticated_user.name}</textarea>
 
         </div>
             </div>

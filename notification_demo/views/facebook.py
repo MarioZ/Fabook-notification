@@ -38,7 +38,3 @@ def fb_notice_view(request):
     return {
         'list_fb_receivers': list_fb_receivers
     }
-
-@forbidden_view_config(containment=_rsr.FBNotice, renderer='forbidden.mak')
-def account_info_forbidden(request):
-    return dict()
