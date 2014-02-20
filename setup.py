@@ -18,7 +18,8 @@ requires = [
     'pyramid_vgid_oauth2',
     'pyramid_beaker',
     'pyramid_layout',
-    'requests'
+    'requests',
+    'pyramid-debugtoolbar'
     ]
 
 setup(name='notification_demo',

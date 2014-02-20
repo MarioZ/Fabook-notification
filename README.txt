@@ -8,7 +8,7 @@ Getting Started
 
 - $venv/bin/python setup.py develop
 
-- $venv/bin/initialize_notification_demo_db development.ini
+- $venv/bin/init_ntf_demo_db development.ini
 
 - $venv/bin/pserve development.ini
 
